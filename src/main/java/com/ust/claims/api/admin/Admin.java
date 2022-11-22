@@ -4,6 +4,7 @@ package com.ust.claims.api.admin;
 import lombok.Data;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 import java.time.LocalDateTime;
 
@@ -11,6 +12,7 @@ import java.time.LocalDateTime;
 @Data
 @Table(name="admin_details")
 public class Admin {
+    @Id
     private int adminId;
     private String adminName;
     private LocalDateTime createdDate;

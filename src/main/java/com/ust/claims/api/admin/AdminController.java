@@ -25,7 +25,7 @@ public class AdminController {
         }
     }
 
-    @GetMapping("/admin")
+    @GetMapping("/admins")
     public ResponseEntity<List<AdminDto>> getAll() {
         try {
             List<Admin> adminList = adminService.getAllAdmins();
