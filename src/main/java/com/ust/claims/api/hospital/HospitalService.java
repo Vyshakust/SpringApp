@@ -1,11 +1,8 @@
 package com.ust.claims.api.hospital;
 
-import com.ust.claims.api.patient.Patient;
-import com.ust.claims.api.patient.PatientDto;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

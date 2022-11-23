@@ -25,7 +25,6 @@ public class Config extends WebSecurityConfigurerAdapter {
     @Autowired
     private JwtTokenFilter jwtTokenFilter;
 
-
     /**
      * Password encoder password encoder.
      *

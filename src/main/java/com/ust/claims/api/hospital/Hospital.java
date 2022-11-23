@@ -1,8 +1,8 @@
 package com.ust.claims.api.hospital;
 
 import com.ust.claims.api.patient.Patient;
+import com.ust.claims.api.treatment.Treatment;
 import lombok.Data;
-
 import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.Set;
@@ -22,4 +22,7 @@ public class Hospital {
 
     @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY,mappedBy = "hospital")
     private Set<Patient> patientList;
+
+    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY,mappedBy = "hospital")
+    private Set<Treatment> treatmentList;
 }

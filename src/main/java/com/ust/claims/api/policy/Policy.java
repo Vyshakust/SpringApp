@@ -1,7 +1,6 @@
-package com.ust.claims.policy;
+package com.ust.claims.api.policy;
 
 import lombok.Data;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;

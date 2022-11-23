@@ -1,8 +1,6 @@
 package com.ust.claims.api.claims;
 
-
 import lombok.Data;
-
 @Data
 public class ClaimsDto {
     private int claimId;

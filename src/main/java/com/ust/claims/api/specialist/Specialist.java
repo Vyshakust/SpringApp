@@ -1,7 +1,7 @@
 package com.ust.claims.api.specialist;
 
+import com.ust.claims.api.treatment.Treatment;
 import lombok.Data;
-
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
@@ -17,6 +17,10 @@ public class Specialist {
     private LocalDateTime createdDate;
     private LocalDateTime modifiedDate;
     private boolean status;
+
+    @ManyToOne
+    @JoinColumn(name = "treatment_id")
+    private Treatment treatment;
 }
 
 

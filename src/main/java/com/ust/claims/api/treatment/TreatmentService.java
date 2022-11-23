@@ -1,12 +1,8 @@
 package com.ust.claims.api.treatment;
 
-import com.ust.claims.api.specialist.Specialist;
-import com.ust.claims.api.specialist.SpecialistDto;
-import com.ust.claims.api.specialist.SpecialistRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,13 +1,9 @@
 package com.ust.claims.api.specialist;
 
-import com.ust.claims.api.patient.Patient;
-import com.ust.claims.api.patient.PatientDto;
-import com.ust.claims.api.patient.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.NoSuchElementException;
 

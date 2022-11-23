@@ -1,7 +1,6 @@
 package com.ust.claims.api.patient;
 
 import lombok.Data;
-
 import java.time.LocalDateTime;
 
 @Data

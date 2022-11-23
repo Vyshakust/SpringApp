@@ -1,9 +1,8 @@
-package com.ust.claims.policy;
+package com.ust.claims.api.policy;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

@@ -2,7 +2,6 @@ package com.ust.claims.api.patient;
 
 import com.ust.claims.api.hospital.Hospital;
 import lombok.Data;
-
 import javax.persistence.*;
 import java.time.LocalDateTime;
 

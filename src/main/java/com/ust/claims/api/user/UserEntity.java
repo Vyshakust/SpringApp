@@ -2,7 +2,6 @@ package com.ust.claims.api.user;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-
 import javax.persistence.*;
 import java.util.Collection;
 
@@ -14,6 +13,8 @@ public class UserEntity implements UserDetails {
     private String email;
     @Column(nullable = false,unique = true)
     private String password;
+
+    // USER TYPE SHOULD COME
 
     public UserEntity(String email, String password) {
         this.email = email;
