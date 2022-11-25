@@ -16,6 +16,7 @@ public class Patient {
     private int patientAge;
     private char patientGender;
     private long patientContactNumber;
+    private boolean patientOutOfIndia;
     private LocalDateTime createdDate;
     private LocalDateTime modifiedDate;
     private boolean status;

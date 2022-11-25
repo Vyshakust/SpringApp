@@ -8,7 +8,7 @@ import lombok.Data;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
-//@Entity
+@Entity
 @Data
 @Table(name = "transaction_details")
 public class Transaction {
