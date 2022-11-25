@@ -5,11 +5,10 @@ import com.ust.claims.api.patient.Patient;
 import com.ust.claims.api.specialist.Specialist;
 import com.ust.claims.api.treatment.Treatment;
 import lombok.Data;
-
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
-@Entity
+//@Entity
 @Data
 @Table(name = "transaction_details")
 public class Transaction {
