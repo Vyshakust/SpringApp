@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ust</groupId>
-	<artifactId>claims</artifactId>
+	<artifactId>transaction</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>claims</name>
+	<name>transaction</name>
 	<description>Spring boot Claim Management</description>
 	<properties>
 		<java.version>1.8</java.version>
